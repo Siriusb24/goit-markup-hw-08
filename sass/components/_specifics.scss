@@ -1,0 +1,54 @@
+.specifics {
+    padding-top: 94px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.specifics__list {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.specifics__item {
+    width: 270px;
+    text-decoration: none;
+}
+
+.specifics__feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--thirt-color);
+}
+
+.specifics__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.specifics__skills {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.specifics__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}

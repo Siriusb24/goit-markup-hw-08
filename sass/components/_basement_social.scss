@@ -1,0 +1,53 @@
+.basement-social {
+    display: block;
+    margin-left: 70px;
+}
+
+.basement-social__title { 
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--alt-color);
+}
+
+.basement-social__list {
+    display: inline-flex;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.basement-social__item {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    &:not(:last-child) {
+    margin-right: 10px;
+}
+}
+
+.basement-social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+}
+}
+
+.basement-social__icon {
+    fill: var(--alt-color);
+    width: 20px;
+    height: 20px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
