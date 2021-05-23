@@ -2,15 +2,33 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--alternative-bgr);
+
+    @media screen and (min-width: 768px) and (max-width:1199px){
+       padding-top: 65px;
+       padding-bottom: 60px; 
+    }
 }   
 
 .basement__list {
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 768px){
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
+    justify-content: space-evenly;
+    }
+    @media screen and (min-width: 1200px){
+    flex-wrap: nowrap;
     }
 }
 
 .basement__address{
    text-align: center;
+
+   @media screen and (min-width: 768px) and (max-width:1199px){
+    margin-right: 165px;
+   }
+
+   @media screen and (min-width: 1200px){
+    text-align: left;
+   }
 }

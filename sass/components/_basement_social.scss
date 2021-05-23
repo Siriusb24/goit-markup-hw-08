@@ -1,6 +1,10 @@
 .basement-social {
+    text-align: center;
+
+    @media screen and (min-width:1200px) {
     display: block;
-    margin-left: 70px;
+    margin-left: 70px;   
+    }
 }
 
 .basement-social__title { 
