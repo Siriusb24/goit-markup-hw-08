@@ -1,9 +1,16 @@
 .basement {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: var(--alternative-bgr);}
+    background-color: var(--alternative-bgr);
+}   
 
 .basement__list {
+    @media screen and (min-width: 1200px){
     display: flex;
     align-items: baseline;
+    }
+}
+
+.basement__address{
+   text-align: center;
 }
