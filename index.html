@@ -65,13 +65,78 @@
                     </li>
                 </ul>
                 <button class="mobile-menu__button">
-                    <svg class="mobile-menu__icon" width="40px" height="40px">
+                    <svg class="mobile-menu__icon" width="40px" height="40px" data-menu-button>
                         <use class="mobile-menu__icon-close" href="./images/icons.svg#icon-close"></use>
                         <use class="mobile-menu__icon-menu" href="./images/icons.svg#icon-menu"></use>
                     </svg>
                 </button>
             </div>
         </header>
+        <div class="mobile-menu" data-menu>
+            <div class="conteiner">
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a href="./index.html" class="mobile-menu__link current">Студия</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="./portfolio.html" class="mobile-menu__link"
+                            >Портфолио</a
+                        >
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="mobile-communication">
+                    <li class="mobile-communication__item">
+                        <a href="tel:+380961111111" class="mobile-communication__link mobile-communication__link--size"
+                            >
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                    <li class="mobile-communication__item">
+                        <a href="mailto:info@devstudio.com" class="mobile-communication__link"
+                            >
+                            info@devstudio.com</a
+                        >
+                    </li>
+                </ul>
+                <ul class="mobile-social">
+                    <li class="mobile-social__item">
+                        <a
+                            href=""
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="mobile-social__link"
+                            >Instagram</a>
+                    </li>
+                    <li class="mobile-social__item">
+                        <a
+                            href=""
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="mobile-social__link"
+                            >Twitter</a>
+                    </li>
+                    <li class="mobile-social__item">
+                        <a
+                            href=""
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="mobile-social__link"
+                            >Facebook</a>
+                    </li>
+                    <li class="mobile-social__item">
+                        <a
+                            href=""
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="mobile-social__link"
+                            >Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <main>
             <section class="hero">
                 <div class="conteiner">
@@ -810,5 +875,6 @@
             </div>
         </div>
         <script src="./js/modal.js"></script>
+        <script src="./js/mobile.js"></script>
     </body>
 </html>
