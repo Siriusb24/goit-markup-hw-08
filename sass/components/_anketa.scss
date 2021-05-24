@@ -1,7 +1,11 @@
 .anketa {
     display: block;
-    width: 448px;
+    width: 370px;
     height: 342px;
+
+    @media screen and (min-width: 1200px){
+    width: 448px;
+    }
 }
 
 .anketa__title {
@@ -28,11 +32,16 @@
 
 .anketa__item {
     padding-left: 42px;
-    width: 448px;
+    width: 370px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
+
+    @media screen and (min-width: 1200px){
+    width: 448px;
+    }
+
 }
 
 .anketa__icon {
