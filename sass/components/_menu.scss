@@ -1,17 +1,28 @@
 .nav__list {
+    display: none;
+
+    @media screen and (min-width: 768px) {
     display: inline-flex;
-    padding-left: 0;
+    padding-left: 0;   
+    }
+    
 }
 
 .nav__menu{
-    margin: 0;
+    @media screen and (min-width: 768px){
+    margin: 0;    
+    }
+    
 }
 
 .nav__item:not(:last-child) {
+    @media screen and (min-width: 768px){
     margin-right: 50px;
+    }
 }
 
 .nav__link {
+    @media screen and (min-width: 768px){
     display: block;
     position: relative;
     padding-top: 32px;
@@ -28,10 +39,11 @@
     & .current {
     color: var(--accent-color);
     }
-
+    }
 }
 
 .current::after {
+    @media screen and (min-width: 768px){
     content: "";
     position: absolute;
     bottom: 0;
@@ -40,4 +52,5 @@
     height: 4px;
     background-color: var(--accent-color);
     border-radius: 2px;
+    }
 }

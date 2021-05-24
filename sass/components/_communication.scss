@@ -1,4 +1,8 @@
 .communication {
+    display: none;
+
+    @media screen and (min-width: 768px){
+    display: block;
     padding-left: 0;
     font-weight: 500;
     font-size: 14px;
@@ -7,17 +11,21 @@
     text-decoration: none;
     color: var(--secondary-color);
     margin: 0;
+    }
 }
 
 .communication__item {
+    @media screen and (min-width: 768px){
     display: inline-flex;
 
     &:not(:last-child) {
     margin-right: 50px;
     }
+    }
 }
 
 .communication__link {
+    @media screen and (min-width: 768px){
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,10 +37,11 @@
     &:focus {
         color: var(--accent-color);
     }
-
+    }
 }
 
 .communication__icon {
+    @media screen and (min-width: 768px){
     margin-right: 10px;
     fill: var(--main-color);
     transition-property: fill, color;
@@ -44,8 +53,11 @@
         fill: var(--accent-color);
         color: var(--accent-color);
     }
+    }
 }
 
 .studio:valid {
+    @media screen and (min-width: 768px){
     color: var(--accent-color);
+    }
 }

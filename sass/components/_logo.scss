@@ -2,15 +2,30 @@
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+    font-size: 24px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
+
+
+    @media screen and (min-width: 1200Px) {
+    font-size: 26px;
+    line-height: 1.19;  
+    }
 }
 
 
 .page-header__logo{
+    margin-right: auto;
+
+
+    @media screen and (min-width: 1200px){
+    margin-right: 88px;
+    }
+
+    @media screen and (min-width: 1200px){
     margin-right: 93px;
+    }
 }
 
 .logo__item {
