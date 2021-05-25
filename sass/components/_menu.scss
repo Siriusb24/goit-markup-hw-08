@@ -1,18 +1,26 @@
+.nav{
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;   
+        }
+}
+
 .nav__list {
-    display: none;
+   display: none;
 
     @media screen and (min-width: 768px) {
     display: inline-flex;
-    padding-left: 0;   
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 84px;
+    margin-bottom: 0; 
     }
-    
-}
 
-.nav__menu{
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 1200px){
     margin: 0;    
-    }
-    
+    } 
 }
 
 .nav__item:not(:last-child) {
@@ -36,7 +44,7 @@
     color: var(--accent-color);
     }
 
-    & .current {
+    &.current {
     color: var(--accent-color);
     }
     }
