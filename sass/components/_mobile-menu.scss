@@ -105,7 +105,7 @@ color: #2196F3;
     color: var(--accent-color);
     }
 
-    & .current {
+    &.current {
     color: var(--accent-color);
     }
 }
@@ -118,10 +118,16 @@ color: #2196F3;
     border: none;
     cursor: pointer;
     z-index: 3;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-    color: var(--accent-color);
+    &:hover .mobile-menu__icon-menu,
+    &:focus .mobile-menu__icon-menu{
+    fill: var(--accent-color);
+    }
+
+    &:hover .mobile-menu__icon-close,
+    &:focus .mobile-menu__icon-close{
+    fill: var(--accent-color);
     }
 
     @media screen and (min-width: 768px) {
