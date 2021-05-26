@@ -52,7 +52,6 @@
 .portfolio__overlay {
     position: relative;
     max-width: 450px;
-    height: 404px;
     overflow: hidden;
 
     @media screen and (min-width: 1200px){
@@ -101,7 +100,6 @@
 }
 
 .portfolio__title {
-    padding: 20px;
     margin-top: 0;
     margin-bottom: 4px;
     color: var(--secondary-color);

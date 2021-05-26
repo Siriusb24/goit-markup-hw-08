@@ -34,7 +34,7 @@ color: #212121;
 
 .mobile-communication{
     margin-bottom: 64px;
-    padding-left: 25px;
+    padding-left: 0;
 }
 
 .mobile-communication__item{
@@ -67,7 +67,7 @@ color: #2196F3;
     width: 357px;
     height: 22px;
     margin: 0;
-    padding-left: 25px;
+    padding-left: 0;
     padding-bottom: 48px;
 }
 
@@ -87,6 +87,7 @@ color: #2196F3;
 
 .mobile-social__link{
     text-decoration: none;
+    padding-left: 0;
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
