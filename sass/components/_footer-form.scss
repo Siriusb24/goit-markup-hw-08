@@ -1,4 +1,5 @@
 .footer-form {
+    margin-top: 60px;
     max-width: 450px;
     max-height: 156px;
 
@@ -23,6 +24,7 @@
 .footer-form__title {
     display: block;
     text-align: center;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -32,7 +34,7 @@
 
     @media screen and (min-width: 1200px){
     text-align: left;
-    margin-bottom: 20px;
+   
     }
 }
 
